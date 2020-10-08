@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cross-icon {
+  cursor: pointer;
+  width: 20px;
+  fill: #80868b;
+  margin-left: 480px;
+}
+
+.list {
+  width: 500px;
+  height: 20px;
+  font-size: 20px;
+}
+
+li span {
+  position: relative;
+  left: -5px;
+  float: left;
+}
+
+svg {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  left: 20px;
+  top: 27px;
+}
+
+.form {
+  margin-right: 200px;
+  margin-left: 20px;
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.input {
+  border: 2px solid #dfe1e5;
+  border-radius: 10px;
+  width: 480px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 20px;
+}
