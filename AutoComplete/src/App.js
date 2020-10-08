@@ -1,7 +1,6 @@
 import "./styles.css";
 import React, { Component } from "react";
 import { TrieNode, insert, search, items } from "./Tries.js";
-console.log(items);
 const root = new TrieNode("\0");
 for (const item of items) {
   insert(item, root);
